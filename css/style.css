@@ -1,0 +1,72 @@
+.header {
+    background-color: #0099FF;
+    width: 100%;
+    height: 92px;
+    margin-top: auto;
+    padding-top: 5px;
+    font-family: 'Lobster', cursive;
+    font-size: 72px;
+    text-align: center;
+    text-shadow: 4px 4px #000;
+    color: #FFF;
+}
+
+.sidebar {
+    float: left;
+    width: 185px;
+    height: 1000px;
+    background-color: cornflowerblue;
+}
+
+body {
+    font-family: "Lato", "Helvetica", "Arial", sans-serif;
+}
+/* This is div tag that holds all the content for the page */
+.allcontent {
+    background-color: #8099CC;
+    width: 1000px;
+    height: 1097px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.section-head {
+    font-size: 24pt;
+    font-weight: 900;
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #000;
+    text-align: center;
+}
+
+.section-text {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* div tag that holds the textual/visual body content */
+.content {
+    width: 815px;
+    float: left;
+    height: 1000px;
+}
+
+.nav-sidebar {
+    font-weight: 700;
+    color: white;
+}
+
+/* Universal Link Styles */
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #80E5FF
+}
+a:visited {
+    color: #90f
+}
