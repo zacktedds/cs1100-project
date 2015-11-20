@@ -39,8 +39,9 @@ body {
 }
 
 .section-text {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
 }
 /* div tag that holds the textual/visual body content */
 .content {
@@ -69,4 +70,27 @@ a:active {
 }
 a:visited {
     color: #90f
+}
+
+
+#table {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
+#author-pic {
+    float: left;
+    word-wrap: normal;
+    margin-right: 5px;
 }
