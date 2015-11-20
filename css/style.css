@@ -16,6 +16,8 @@
     width: 185px;
     height: 1000px;
     background-color: cornflowerblue;
+    font-weight: 700;
+    color: #FFF;
 }
 
 body {
